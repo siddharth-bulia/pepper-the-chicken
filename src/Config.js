@@ -8,6 +8,6 @@ let canvas, context, WIDTH = window.innerWidth, HEIGHT = window.innerHeight,
     }
 
 if (WIDTH >= 600) {
-    WIDTH = 600;
-    HEIGHT = 550;
+    WIDTH = 480;
+    HEIGHT = 440;
 }
