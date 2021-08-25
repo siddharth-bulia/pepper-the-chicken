@@ -7,7 +7,6 @@ function drawScore() {
     }
 
     if (currentState == states.lost) {
-        facebook.style.display = "block";
 
         context.fillStyle = "#e74c3c";
         context.fillRect(Math.floor(WIDTH / 2 - 50), Math.floor(HEIGHT / 2 - 80), 100, 100);
